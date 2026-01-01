@@ -1,0 +1,43 @@
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Pixelify Sans", sans-serif;
+}
+#scoreTab{
+    font-size: 50px;
+    color: white;
+}
+#question{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    text-shadow: -5px -5px 0 #000, 5px -5px 0 #000, -5px 5px 0 #000, 5px 5px 0 #000;
+    height: fit-content;
+    width: fit-content;
+}
+
+.blocker{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.pixelhearts{
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
+.ali{
+    justify-content: center;
+    display: flex;
+}
+
